@@ -60,3 +60,34 @@ h1, h2, h3, h4, h5, h6 {
 #menu .active {
     background-color: #cb0707;
 }
+
+/*------------------------------------ Hero section -----------------------*/
+#hero-section {
+    height: 95vh;
+
+    background: url(../images/hero-image.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
+}
