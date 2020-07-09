@@ -23,3 +23,22 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     background-color: white;
 }
+
+/*------------------------------------ Header -----------------------*/
+#top-header {
+    background-color: #cb0707;
+    color: #fff;
+}
+
+#top-header ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#top-header ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
