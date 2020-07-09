@@ -42,7 +42,7 @@
               data-toggle="modal"
               data-target="#staticBackdrop"
             >
-              Success
+              Repair Order
             </button>
           </div>
         </div>
@@ -344,7 +344,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Repair Order</h5>
             <button
               type="button"
               class="close"
@@ -354,18 +354,99 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            ...
-          </div>
+          <div class="modal-body"></div>
+          <form>
+            <div class="form-group row">
+              <label for="full-name" class="col-sm-2 col-form-label"
+                >Full Name *</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="full-name"
+                  placeholder="Enter Full Name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-sm-2 col-form-label">Email *</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" required />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="phone" class="col-sm-2 col-form-label"
+                >Phone number *</label
+              >
+              <div class="col-sm-10">
+                <input type="tel" class="form-control" id="phone" required />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="address" class="col-sm-2 col-form-label"
+                >Address *</label
+              >
+              <div class="col-sm-10">
+                <textarea
+                  class="form-control"
+                  id="address"
+                  rows="5"
+                  placeholder="Enter full address here"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="console" class="col-sm-2 col-form-label"
+                >Console *</label
+              >
+              <div class="col-sm-10">
+                <select class="form-control" id="console" required>
+                  <option selected>choose...</option>
+                  <option>Playstation 3</option>
+                  <option>Playstation 4</option>
+                  <option>Xbox 360</option>
+                  <option>Xbox One</option>
+                  <option>Sony PSP</option>
+                  <option>Nintento Switch</option>
+                  <option>PS/Xbox Controller</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="serial" class="col-sm-2 col-form-label"
+                >Serial number *</label
+              >
+              <div class="col-sm-10">
+                <input type="tel" class="form-control" id="serial" required />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="fault-description" class="col-sm-2 col-form-label"
+                >Fault descripton *</label
+              >
+              <div class="col-sm-10">
+                <textarea
+                  class="form-control"
+                  id="fault-description"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <p>Fields with * are required.</p>
           <div class="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary btn-sm"
               data-dismiss="modal"
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Understood</button>
+            <button type="button" class="btn btn-danger">Submit</button>
           </div>
         </div>
       </div>
