@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------ Navbar -----------------------*/
 .navbar {
     margin-top: 22px; /* height of the first fixed element */
-    background-color: #5f5f5f;
+    background-color: #2c2c2c;
 }
 
 #menu .nav-link {
@@ -118,4 +118,10 @@ h1, h2, h3, h4, h5, h6 {
 #service-section p {
     font-weight: 300;
     font-size: 21px;
+}
+
+/*------------------------------------ Advantages section -----------------------*/
+#advantages-section {
+    background-color: #cb0707;
+    color: #fff;
 }
