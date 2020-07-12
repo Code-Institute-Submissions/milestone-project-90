@@ -24,7 +24,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
 }
 
-/*------------------------------------ Header -----------------------*/
+/*------------------------------------ index.html -----------------------*/
+
+/*------------------------------------ Header --*/
 #top-header {
     background-color: #cb0707;
     color: #fff;
@@ -42,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-/*------------------------------------ Navbar -----------------------*/
+/*------------------------------------ Navbar --*/
 .navbar {
     margin-top: 22px; /* height of the first fixed element */
     background-color: #2c2c2c;
@@ -61,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #cb0707;
 }
 
-/*------------------------------------ Hero section -----------------------*/
+/*------------------------------------ Hero section --*/
 #hero-section {
     height: 97vh;
 
@@ -92,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-/*------------------------------------ Service section -----------------------*/
+/*------------------------------------ Service section --*/
 #service-section {
     margin-top: 20px;
 }
@@ -115,24 +117,68 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+.btn-outline-danger {
+    color: #cb0707;
+    border-color: #cb0707
+}
+
+.btn-outline-danger:hover {
+    background-color: #cb0707;
+    color: #fff;
+}
+
 #service-section p {
     font-weight: 300;
     font-size: 21px;
 }
 
-/*------------------------------------ Advantages section -----------------------*/
+/*------------------------------------ Advantages section --*/
 #advantages-section {
     background-color: #cb0707;
     color: #fff;
 }
 
-/*------------------------------------ Quotes section -----------------------*/
+/*------------------------------------ Quotes section --*/
 
 .blockquote {
     background-color: rgb(223, 223, 223);
     padding: 10px;
     border-left: 3px solid #000;
 }
+
+/*------------------------------------ Footer -----------------------*/
+#page-footer {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+#page-footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#page-footer ul i {
+    color: #cb0707;
+}
+
+#page-footer ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#page-footer ul a:hover {
+    color: #cb0707;
+}
+
+.btn-danger {
+    background-color: #cb0707;
+}
+
+.btn-danger:hover {
+    background-color: #fff;
+    color: #cb0707;
+}
+/*------------------------------------ prices.html -----------------------*/
 
 /*------------------------------------ Prices hero section -----------------------*/
 #prices-hero-section {
@@ -147,12 +193,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-/*------------------------------------ Prices section -----------------------*/
+/*------------------------------------ Prices section --*/
 #playstation3, #playstation4, #x360, #xone, #psp, #ninswitch {
     padding-top: 90px;
 }
-
-
 
 #prices-section .table-bordered th{
     border:1px solid #cb0707;
