@@ -402,7 +402,139 @@
         </div>
       </div>
     </footer>
-
+    <!------------------------------------ Modal Repair Order ----------------------->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content pl-3 pr-3 mb-3">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Repair Order</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0 pb-1"></div>
+          <form
+            method="post"
+            action="https://formdump.codeinstitute.net/"
+            target="_blank"
+          >
+            <div class="form-group mb-1">
+              <label for="full-name" class="m-0">Full Name *</label>
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                id="full-name"
+                placeholder="Enter Full Name"
+                name="full-name"
+                required
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="email" class="m-0">Email *</label>
+              <input
+                type="email"
+                class="form-control form-control-sm"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="phone" class="m-0">Phone number *</label>
+              <input
+                type="tel"
+                class="form-control form-control-sm"
+                id="phone"
+                name="phone"
+                required
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="address" class="m-0"
+                >Address *</label
+              >
+                <textarea
+                  class="form-control"
+                  id="address"
+                  rows="4"
+                  placeholder="Enter full address"
+                  name="address"
+                  required
+                ></textarea>
+              </div>
+            <div class="form-group mb-1">
+              <label for="console" class="m-0"
+                >Console *</label
+              >
+                <select
+                  class="form-control mb-1"
+                  id="console"
+                  name="console"
+                  required
+                >
+                  <option selected>select your console...</option>
+                  <option>Playstation 3</option>
+                  <option>Playstation 4</option>
+                  <option>Xbox 360</option>
+                  <option>Xbox One</option>
+                  <option>Sony PSP</option>
+                  <option>Nintento Switch</option>
+                  <option>PS/Xbox Controller</option>
+                </select>
+              </div>
+            <div class="form-group mb-1">
+              <label for="serial" class="m-0"
+                >Serial number *</label
+              >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="serial"
+                  name="serial"
+                  required
+                />
+              </div>
+            <div class="form-group mb-2">
+              <label for="fault-description" class="m-0"
+                >Fault descripton *</label
+              >
+                <textarea
+                  class="form-control"
+                  id="fault-description"
+                  rows="3"
+                  name="fault-description"
+                  required
+                ></textarea>
+              </div>
+              <div id="modal-form-buttons" class="ml-auto">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-danger">Submit</button>
+              </div>
+              <p>Fields with * are required</p>
+          </form>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

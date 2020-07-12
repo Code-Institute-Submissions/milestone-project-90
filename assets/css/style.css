@@ -175,8 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-danger:hover {
-    background-color: #fff;
-    color: #cb0707;
+    background-color: rgb(168, 2, 2);
 }
 /*------------------------------------ prices.html -----------------------*/
 
