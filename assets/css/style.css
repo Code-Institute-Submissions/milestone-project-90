@@ -236,3 +236,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #cb0707;
 }
 
+/*------------------------------------ contact.html -----------------------*/
+
+/*------------------------------------ Contact hero section -----------------------*/
+
+#contact-hero-section {
+    height: 60vh;
+
+    background: url(../images/contact-image.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
