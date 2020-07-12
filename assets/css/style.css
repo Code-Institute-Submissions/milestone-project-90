@@ -145,10 +145,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 
     position: relative;
-
 }
 
 /*------------------------------------ Prices section -----------------------*/
+#playstation3, #playstation4, #x360, #xone, #psp, #ninswitch {
+    padding-top: 90px;
+}
+
+
+
 #prices-section .table-bordered th{
     border:1px solid #cb0707;
 }
