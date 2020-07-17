@@ -13,23 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
 }
 
-/* Block dividers */
-.block-divider-red {
-    width: 200px;
-    height: 2px;
-    border: 0;
-    background-color: #cb0707;
-}
-
-.block-divider-white {
-    width: 200px;
-    height: 2px;
-    border: 0;
-    background-color: white;
-}
-
-/*------------------------------------ index.html -----------------------*/
-
 /*------------------------------------ Header --*/
 #top-header {
     background-color: #cb0707;
@@ -67,6 +50,55 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #cb0707;
 }
 
+/*------------------------------------ Footer --*/
+#page-footer {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+#page-footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#page-footer ul i {
+    color: #cb0707;
+}
+
+#page-footer ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#page-footer ul a:hover {
+    color: #cb0707;
+}
+
+.btn-danger {
+    background-color: #cb0707;
+}
+
+.btn-danger:hover {
+    background-color: rgb(168, 2, 2);
+}
+
+/* Block dividers */
+.block-divider-red {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: #cb0707;
+}
+
+.block-divider-white {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: white;
+}
+
+/*------------------------------------ index.html -----------------------*/
+
 /*------------------------------------ Hero section --*/
 #hero-section {
     height: 97vh;
@@ -99,9 +131,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ Service section --*/
-#service-section {
-    margin-top: 20px;
-}
 
 .tiles .col-6 {
     height: 160px;
@@ -151,40 +180,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-/*------------------------------------ Footer -----------------------*/
-#page-footer {
-    background-color: #2c2c2c;
-    color: #fff;
-}
 
-#page-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#page-footer ul i {
-    color: #cb0707;
-}
-
-#page-footer ul a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#page-footer ul a:hover {
-    color: #cb0707;
-}
-
-.btn-danger {
-    background-color: #cb0707;
-}
-
-.btn-danger:hover {
-    background-color: rgb(168, 2, 2);
-}
 /*------------------------------------ prices.html -----------------------*/
 
-/*------------------------------------ Prices hero section -----------------------*/
+/*------------------------------------ Prices hero section --*/
 #prices-hero-section {
     height: 60vh;
 
@@ -213,33 +212,8 @@ h1, h2, h3, h4, h5, h6 {
     border:1px solid #cb0707;
 }
 
-/*------------------------------------ Footer -----------------------*/
-#page-footer {
-    background-color: #2c2c2c;
-    color: #fff;
-}
-
-#page-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#page-footer ul i {
-    color: #cb0707;
-}
-
-#page-footer ul a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#page-footer ul a:hover {
-    color: #cb0707;
-}
-
 /*------------------------------------ contact.html -----------------------*/
-
-/*------------------------------------ Contact hero section -----------------------*/
+/*------------------------------------ Contact hero section --*/
 
 #contact-hero-section {
     height: 60vh;
