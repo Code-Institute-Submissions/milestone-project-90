@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid white;
 }
 
+#menu a[href="contact.html"] {
+    border-right: none;
+}
+
 #menu a:hover {
     background-color: #cb0707;
 }
