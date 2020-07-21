@@ -102,7 +102,7 @@
     </section>
     <!------------------------------------ Service section ----------------------->
     <section id="service-section">
-      <div class="container text-center">
+      <div class="container text-center mt-3">
         <div class="row">
           <div class="col-12">
             <h2 class="text-uppercase">We repair everything</h2>
@@ -289,7 +289,7 @@
                       working perfectly again after it being dodgy for months.
                       Customer service was brilliant too - checked in with me a
                       month later to make sure it was still working fine. Nice
-                      touch! And the service came with a guarantee for some
+                      touch! And the service came with a guarantee for
                       extra confidence.
                       <i class="bottom fas fa-quote-left"></i>
                     </p>
@@ -377,7 +377,7 @@
             target="_blank"
           >
             <div class="form-group mb-1">
-              <label for="full-name" class="m-0">Full Name *</label>
+              <label for="full-name" class="m-0">Full Name <span class="red">*</span></label>
               <input
                 type="text"
                 class="form-control form-control-sm"
@@ -388,7 +388,7 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="email" class="m-0">Email *</label>
+              <label for="email" class="m-0">Email <span class="red">*</span></label>
               <input
                 type="email"
                 class="form-control form-control-sm"
@@ -398,7 +398,7 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="phone" class="m-0">Phone number *</label>
+              <label for="phone" class="m-0">Phone number <span class="red">*</span></label>
               <input
                 type="tel"
                 class="form-control form-control-sm"
@@ -409,7 +409,7 @@
             </div>
             <div class="form-group mb-1">
               <label for="address" class="m-0"
-                >Address *</label
+                >Address <span class="red">*</span></label
               >
                 <textarea
                   class="form-control"
@@ -422,15 +422,16 @@
               </div>
             <div class="form-group mb-1">
               <label for="console" class="m-0"
-                >Console *</label
+                >Console <span class="red">*</span></label
               >
                 <select
                   class="form-control mb-1"
                   id="console"
                   name="console"
+                  
                   required
                 >
-                  <option selected>select your console...</option>
+                  <option selected disabled hidden>choose your conole... </option>
                   <option>Playstation 3</option>
                   <option>Playstation 4</option>
                   <option>Xbox 360</option>
@@ -442,7 +443,7 @@
               </div>
             <div class="form-group mb-1">
               <label for="serial" class="m-0"
-                >Serial number *</label
+                >Serial number <span class="red">*</span></label
               >
                 <input
                   type="tel"
@@ -454,7 +455,7 @@
               </div>
             <div class="form-group mb-2">
               <label for="fault-description" class="m-0"
-                >Fault descripton *</label
+                >Fault descripton <span class="red">*</span></label
               >
                 <textarea
                   class="form-control"
@@ -474,7 +475,7 @@
             </button>
             <button type="submit" class="btn btn-danger">Submit</button>
               </div>
-              <p>Fields with * are required</p>
+              <p>Fields with <span class="red">*</span> are required</p>
           </form>
         </div>
       </div>

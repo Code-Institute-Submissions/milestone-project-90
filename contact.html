@@ -116,7 +116,7 @@
             target="_blank"
           >
            <div class="form-group mb-1">
-              <label for="name" class="m-0">Name *</label>
+              <label for="name" class="m-0">Name <span class="red">*</span></label>
               <input
                 type="text"
                 class="form-control form-control-lg"
@@ -126,7 +126,7 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="e-mail" class="m-0">Email *</label>
+              <label for="e-mail" class="m-0">Email <span class="red">*</span></label>
               <input
                 type="email"
                 class="form-control form-control-lg"
@@ -137,7 +137,7 @@
             </div>
             <div class="form-group mb-2">
               <label for="message" class="m-0"
-                >Message *</label
+                >Message <span class="red">*</span></label
               >
               <textarea
               type="text"
@@ -149,7 +149,7 @@
               ></textarea>
               <button type="submit" class="btn btn-danger mt-2">Submit</button>
             </div>
-            <p><small>Fields with * are required</small></p>
+            <p><small>Fields with <span class="red">*</span> are required</small></p>
           </form>
         </div>
       </div>
@@ -227,7 +227,7 @@
             target="_blank"
           >
             <div class="form-group mb-1">
-              <label for="full-name" class="m-0">Full Name *</label>
+              <label for="full-name" class="m-0">Full Name <span class="red">*</span></label>
               <input
                 type="text"
                 class="form-control form-control-sm"
@@ -238,7 +238,7 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="email" class="m-0">Email *</label>
+              <label for="email" class="m-0">Email <span class="red">*</span></label>
               <input
                 type="email"
                 class="form-control form-control-sm"
@@ -248,7 +248,7 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="phone" class="m-0">Phone number *</label>
+              <label for="phone" class="m-0">Phone number <span class="red">*</span></label>
               <input
                 type="tel"
                 class="form-control form-control-sm"
@@ -258,67 +258,74 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="address" class="m-0">Address *</label>
-              <textarea
-                class="form-control"
-                id="address"
-                rows="4"
-                placeholder="Enter full address"
-                name="address"
-                required
-              ></textarea>
-            </div>
-            <div class="form-group mb-1">
-              <label for="console" class="m-0">Console *</label>
-              <select
-                class="form-control mb-1"
-                id="console"
-                name="console"
-                required
+              <label for="address" class="m-0"
+                >Address <span class="red">*</span></label
               >
-                <option selected>select your console...</option>
-                <option>Playstation 3</option>
-                <option>Playstation 4</option>
-                <option>Xbox 360</option>
-                <option>Xbox One</option>
-                <option>Sony PSP</option>
-                <option>Nintento Switch</option>
-                <option>PS/Xbox Controller</option>
-              </select>
-            </div>
+                <textarea
+                  class="form-control"
+                  id="address"
+                  rows="4"
+                  placeholder="Enter full address"
+                  name="address"
+                  required
+                ></textarea>
+              </div>
             <div class="form-group mb-1">
-              <label for="serial" class="m-0">Serial number *</label>
-              <input
-                type="tel"
-                class="form-control"
-                id="serial"
-                name="serial"
-                required
-              />
-            </div>
+              <label for="console" class="m-0"
+                >Console <span class="red">*</span></label
+              >
+                <select
+                  class="form-control mb-1"
+                  id="console"
+                  name="console"
+                  
+                  required
+                >
+                  <option selected disabled hidden>choose your conole... </option>
+                  <option>Playstation 3</option>
+                  <option>Playstation 4</option>
+                  <option>Xbox 360</option>
+                  <option>Xbox One</option>
+                  <option>Sony PSP</option>
+                  <option>Nintento Switch</option>
+                  <option>PS/Xbox Controller</option>
+                </select>
+              </div>
+            <div class="form-group mb-1">
+              <label for="serial" class="m-0"
+                >Serial number <span class="red">*</span></label
+              >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="serial"
+                  name="serial"
+                  required
+                />
+              </div>
             <div class="form-group mb-2">
               <label for="fault-description" class="m-0"
-                >Fault descripton *</label
+                >Fault descripton <span class="red">*</span></label
               >
-              <textarea
-                class="form-control"
-                id="fault-description"
-                rows="3"
-                name="fault-description"
-                required
-              ></textarea>
-            </div>
-            <div id="modal-form-buttons" class="ml-auto">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="submit" class="btn btn-danger">Submit</button>
-            </div>
-            <p><small>Fields with * are required</small></p>
+                <textarea
+                  class="form-control"
+                  id="fault-description"
+                  rows="3"
+                  name="fault-description"
+                  required
+                ></textarea>
+              </div>
+              <div id="modal-form-buttons" class="ml-auto">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-danger">Submit</button>
+              </div>
+              <p>Fields with <span class="red">*</span> are required</p>
           </form>
         </div>
       </div>
