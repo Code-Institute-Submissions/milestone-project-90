@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+#top-header ul a:hover {
+    color: #f3d7d7;
+}
+
 /*------------------------------------ Navbar --*/
 .navbar {
     margin-top: 22px; /* height of the first fixed element */
@@ -131,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ Service section --*/
-
 .tiles .col-6 {
     height: 160px;
     width: 160px;
@@ -172,7 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ Quotes section --*/
-
 .blockquote {
     background-color: rgb(240, 240, 240);
     padding: 10px;
@@ -213,8 +215,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ contact.html -----------------------*/
-/*------------------------------------ Contact hero section --*/
 
+/*------------------------------------ Contact hero section --*/
 #contact-hero-section {
     height: 60vh;
 
