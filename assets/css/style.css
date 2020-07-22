@@ -13,6 +13,26 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
 }
 
+/* Block dividers */
+.block-divider-red {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: #cb0707;
+}
+
+.block-divider-white {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: white;
+}
+
+/* Highliht */
+.red {
+    color: #cb0707;
+}
+
 /*------------------------------------ Header --*/
 #top-header {
     background-color: #cb0707;
@@ -88,26 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-danger:hover {
     background-color: rgb(168, 2, 2);
-}
-
-/* Block dividers */
-.block-divider-red {
-    width: 200px;
-    height: 2px;
-    border: 0;
-    background-color: #cb0707;
-}
-
-.block-divider-white {
-    width: 200px;
-    height: 2px;
-    border: 0;
-    background-color: white;
-}
-
-/* Highliht */
-.red {
-    color: #cb0707;
 }
 
 /*------------------------------------ index.html -----------------------*/
