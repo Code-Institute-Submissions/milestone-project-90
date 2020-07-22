@@ -13,6 +13,11 @@
       integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@300;400&family=Roboto:wght@300;400&display=swap"
@@ -77,26 +82,52 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div id="menu" class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="index.html"
-              ><i class="fas fa-home"></i></a
-            >
+              ><i class="fas fa-home"></i
+            ></a>
             <a class="nav-item nav-link" href="prices.html">Prices</a>
-            <a class="nav-item nav-link active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="gallery.html"
+              >Gallery <span class="sr-only">(current)</span></a
+            >
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-     <!------------------------------------ Footer ----------------------->
-    <footer id="page-footer" class="text-center text-md-left">
+    <!------------------------------------ Prices hero section ----------------------->
+    <section id="prices-hero-section">
+      <div class="opaque-overlay">&nbsp;</div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <div class="jumbotron">
+              <h1>Trusted Certified Professionals</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ Gallery section ----------------------->
+    <section id="gallery-section">
       <div class="container">
+        <a data-fancybox="gallery" href="assets/images/playstation4.png"
+          ><img src="assets/images/playstation4.png" width="250" height="160"
+        /></a>
+        <a data-fancybox="gallery" href="assets/images/xboxone.png"
+          ><img src="assets/images/xboxone.png" width="250" height="160"
+        /></a>
+      </div>
+    </section>
+    <!------------------------------------ Footer ----------------------->
+    <footer id="page-footer" class="text-center text-md-left">
+      <div class="container pt-2">
         <div class="row">
           <div class="col-12 col-md-4">
             <h4>Contact:</h4>
             <ul>
               <li>
                 <i class="fas fa-map-marker-alt"></i> The Green <br />
-                Beaumont Woods <br />
-                Dublin 9
+                &emsp;Beaumont Woods <br />
+                &emsp;Dublin 9
               </li>
               <li><i class="fas fa-mobile-alt"></i> 0872545547</li>
               <li><i class="far fa-envelope"></i> info@prosolutions.ie</li>
@@ -159,7 +190,9 @@
             target="_blank"
           >
             <div class="form-group mb-1">
-              <label for="full-name" class="m-0">Full Name <span class="red">*</span></label>
+              <label for="full-name" class="m-0"
+                >Full Name <span class="red">*</span></label
+              >
               <input
                 type="text"
                 class="form-control form-control-sm"
@@ -170,7 +203,9 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="email" class="m-0">Email <span class="red">*</span></label>
+              <label for="email" class="m-0"
+                >Email <span class="red">*</span></label
+              >
               <input
                 type="email"
                 class="form-control form-control-sm"
@@ -180,7 +215,9 @@
               />
             </div>
             <div class="form-group mb-1">
-              <label for="phone" class="m-0">Phone number <span class="red">*</span></label>
+              <label for="phone" class="m-0"
+                >Phone number <span class="red">*</span></label
+              >
               <input
                 type="tel"
                 class="form-control form-control-sm"
@@ -193,81 +230,80 @@
               <label for="address" class="m-0"
                 >Address <span class="red">*</span></label
               >
-                <textarea
-                  class="form-control"
-                  id="address"
-                  rows="4"
-                  placeholder="Enter full address"
-                  name="address"
-                  required
-                ></textarea>
-              </div>
+              <textarea
+                class="form-control"
+                id="address"
+                rows="4"
+                placeholder="Enter full address"
+                name="address"
+                required
+              ></textarea>
+            </div>
             <div class="form-group mb-1">
               <label for="console" class="m-0"
                 >Console <span class="red">*</span></label
               >
-                <select
-                  class="form-control mb-1"
-                  id="console"
-                  name="console"
-                  
-                  required
-                >
-                  <option selected disabled hidden>choose your conole... </option>
-                  <option>Playstation 3</option>
-                  <option>Playstation 4</option>
-                  <option>Xbox 360</option>
-                  <option>Xbox One</option>
-                  <option>Sony PSP</option>
-                  <option>Nintento Switch</option>
-                  <option>PS/Xbox Controller</option>
-                </select>
-              </div>
+              <select
+                class="form-control mb-1"
+                id="console"
+                name="console"
+                required
+              >
+                <option selected disabled hidden>choose your conole... </option>
+                <option>Playstation 3</option>
+                <option>Playstation 4</option>
+                <option>Xbox 360</option>
+                <option>Xbox One</option>
+                <option>Sony PSP</option>
+                <option>Nintento Switch</option>
+                <option>PS/Xbox Controller</option>
+              </select>
+            </div>
             <div class="form-group mb-1">
               <label for="serial" class="m-0"
                 >Serial number <span class="red">*</span></label
               >
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="serial"
-                  name="serial"
-                  required
-                />
-              </div>
+              <input
+                type="tel"
+                class="form-control"
+                id="serial"
+                name="serial"
+                required
+              />
+            </div>
             <div class="form-group mb-2">
               <label for="fault-description" class="m-0"
                 >Fault descripton <span class="red">*</span></label
               >
-                <textarea
-                  class="form-control"
-                  id="fault-description"
-                  rows="3"
-                  name="fault-description"
-                  required
-                ></textarea>
-              </div>
-              <div id="modal-form-buttons" class="ml-auto">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="submit" class="btn btn-danger">Submit</button>
-              </div>
-              <p>Fields with <span class="red">*</span> are required</p>
+              <textarea
+                class="form-control"
+                id="fault-description"
+                rows="3"
+                name="fault-description"
+                required
+              ></textarea>
+            </div>
+            <div id="modal-form-buttons" class="ml-auto">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </div>
+            <p>Fields with <span class="red">*</span> are required</p>
           </form>
         </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
