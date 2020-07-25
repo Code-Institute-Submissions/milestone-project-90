@@ -1,8 +1,9 @@
-<p id="top"></p>
+
 
 # Milestone Project 1
 
 ***
+<p id="top"></p>
 
 ![Pro Solutions logo](assets/readmeimages/logo-readme.png)
 
@@ -16,8 +17,10 @@ Thanks to this website, people interested in repairing their consoles will have 
 - <a href="#project">Project Construction 👷</a>
 - <a href="#ux">User Experience Design 🧠</a>
 - <a href="#tech">Technologies Used 🔨</a>
-- <a href="#features">Feautures List 😲</a>
-- <a href="#features">Testing 🔥</a>
+- <a href="#features">Features List 😲</a>
+- <a href="#testing">Testing 🔥</a>
+- <a href="#deployment">Deployment 🚀</a>
+- <a href="#credits">Credits 🙏</a>
 
 ---
 
@@ -137,13 +140,13 @@ Responsive, touch-enabled and customizable.
 
 I have personally tested the website on several devices and browsers, and I have not noticed any visible errors. All links are working. Both forms tested successfully, missing text in the required field gave an error.
 
-### Devices Used
+### Devices Used:
 
 - Samsung Galaxy S7 - Android 8.0.0 👍
 
 - Lenovo tab E10 - Android 8.0.0 👍
 
-### Browsers Used
+### Browsers Used:
 
 - Chrome 👍
 
@@ -151,10 +154,32 @@ I have personally tested the website on several devices and browsers, and I have
 
 - Microsoft Edge 👍
 
-## Issues and Bugs
+### Issues and Bugs:
 
 I did not notice any problems with the operation of the website on any of my devices or browsers. However, taking into account my experience, I cannot say that the website is error-free.
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
-<p id="#"></p>
+<p id="deployment"></p>
+
+## 6️⃣ Deployment 🚀
+
+Project was started from Code Institute <a href="https://github.com/Code-Institute-Org/gitpod-full-template">gitpod-full-template</a> and developed using Gitpod’s IDE.  All developments were pushed to the corresponding repository in GitHub account.
+
+In order to deploy the website to Github pages, I:
+
+- Selected the Repository from the Github Dashboard.
+
+- Navigated to "Settings" then "Github Pages".
+
+- Selected "master branch" in Source section.
+
+- Page auto refreshed and link generated under Github Pages section:
+
+    👉 Your site is published at https://zokam1411.github.io/milestone-project-1/
+
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+
+<p id="credits"></p>
+
+## 7️⃣ Credits 🙏
