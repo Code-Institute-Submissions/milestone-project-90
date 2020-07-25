@@ -234,6 +234,22 @@ h1, h2, h3, h4, h5, h6 {
     border:1px solid #cb0707;
 }
 
+/*------------------------------------ gallery.html -----------------------*/
+
+/*------------------------------------ Gallery hero section --*/
+#gallery-hero-section {
+    height: 60vh;
+
+    background: url(../images/gallery-image.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
+
 /*------------------------------------ contact.html -----------------------*/
 
 /*------------------------------------ Contact hero section --*/
