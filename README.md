@@ -134,6 +134,8 @@ Responsive, touch-enabled and customizable.
 
 👌 Contact form
 
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+
 <p id="testing"></p>
 
 ## 5️⃣ Testing 🔥
