@@ -185,3 +185,9 @@ In order to deploy the website to Github pages, I:
 <p id="credits"></p>
 
 ## 7️⃣ Credits 🙏
+
+### Media content:
+- Hero images: unsplash.com
+- Consoles png: cleanpng.com
+
+### Acknowledgments:
