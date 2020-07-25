@@ -16,7 +16,8 @@ Thanks to this website, people interested in repairing their consoles will have 
 - <a href="#project">Project Construction 👷</a>
 - <a href="#ux">User Experience Design 🧠</a>
 - <a href="#tech">Technologies Used 🔨</a>
-- <a href="#features">Feautures 😲</a>
+- <a href="#features">Feautures List 😲</a>
+- <a href="#features">Testing 🔥</a>
 
 ---
 
@@ -29,7 +30,7 @@ Despite the above, the website contains two forms, although there is no confirma
 
 As my skill level grows, the functionality of the website will evolve to include java script features, back-end features and online payments. Then it can be used for commercial purposes.
 
-<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="ux"></p>
 
@@ -43,27 +44,27 @@ The main target of the website are people who are looking for a game console rep
 
 The main reasons for visiting service website are:
 
-👓 To see what the service offer.
+- 👓 To see what the service offer.
 
-💰 To check prices for a repair.
+- 💰 To check prices for a repair.
 
-📞 To contact the service.
+- 📞 To contact the service.
 
-📓 To book a service.
+- 📓 To book a service.
 
 ### Why does my website meet these requirements❓
 
-👓 The main page presents and illustrates what repairs are carried out by the service. Encourage to cooperate and presents customer reviews.
+- 👓 The main page presents and illustrates what repairs are carried out by the service. Encourage to cooperate and presents customer reviews.
 
-💰 It is very easy to find the page with prices and a brief description of the repair using the navbar Price tab or the large button visible on the main page.
+- 💰 It is very easy to find the page with prices and a brief description of the repair using the navbar Price tab or the large button visible on the main page.
 
-📞 There is a lot of informations on how to contact the service. From number, email, social links at the top of the page, addres in the footer and the Contact page with map and contact form.
+- 📞 There is a lot of informations on how to contact the service. From number, email, social links at the top of the page, addres in the footer and the Contact page with map and contact form.
 
-📓 The service can be booked via the Repair Order button located in the footer on each page.
+- 📓 The service can be booked via the Repair Order button located in the footer on each page.
 
 ### Wireframes:
 
-<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="tech"></p>
 
@@ -92,9 +93,68 @@ Responsive, touch-enabled and customizable.
 
 - <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" style="_blank">Google Maps</a>  - For embedding google map location.
 
-<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="features"></p>
 
-## 4️⃣ Features 😲
+## 4️⃣ Features List 😲
 
+### Header
+
+👌 Clickable email that opens in user email program
+
+👌 Clickable Font Awesome icons that will link to social media
+
+### Navbar
+
+👌 Clickable logo that will link to Home page
+
+👌 Navbar links with hover background
+
+### Footer
+
+👌 Links to each device on Prices page
+
+👌 Repair Order button that will link to Repair Order form
+
+### Home page
+
+👌 Quotes carousel
+
+### Gallery page 
+
+👌 Display images in Fancybox3 gallery
+
+### Contact page
+
+👌 Embed Google Maps
+
+👌 Contact form
+
+<p id="testing"></p>
+
+## 5️⃣ Testing 🔥
+
+I have personally tested the website on several devices and browsers, and I have not noticed any visible errors. All links are working. Both forms tested successfully, missing text in the required field gave an error.
+
+### Devices Used
+
+- Samsung Galaxy S7 - Android 8.0.0 👍
+
+- Lenovo tab E10 - Android 8.0.0 👍
+
+### Browsers Used
+
+- Chrome 👍
+
+- Firefox 👍
+
+- Microsoft Edge 👍
+
+## Issues and Bugs
+
+I did not notice any problems with the operation of the website on any of my devices or browsers. However, taking into account my experience, I cannot say that the website is error-free.
+
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+
+<p id="#"></p>
