@@ -205,23 +205,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*------------------------------------ prices.html -----------------------*/
 
-/*------------------------------------ Prices hero section --*/
-#prices-hero-section {
-    height: 60vh;
-
-    background: url(../images/prices-image.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+/*------------------------------------ Top prices section --*/
+#top-prices {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-color: #cb0707;
+    color: #fff;
 }
-
 /*------------------------------------ Prices section --*/
 #playstation3, #playstation4, #x360, #xone, #psp, #ninswitch {
     padding-top: 90px;
@@ -235,19 +225,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ gallery.html -----------------------*/
-
-/*------------------------------------ Gallery hero section --*/
-#gallery-hero-section {
-    height: 60vh;
-
-    background: url(../images/gallery-image.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative;
-}
 
 
 /*------------------------------------ contact.html -----------------------*/
