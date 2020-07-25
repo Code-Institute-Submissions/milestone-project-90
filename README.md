@@ -29,7 +29,7 @@ Despite the above, the website contains two forms, although there is no confirma
 
 As my skill level grows, the functionality of the website will evolve to include java script features, back-end features and online payments. Then it can be used for commercial purposes.
 
-<div><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
 
 <p id="ux"></p>
 
@@ -63,7 +63,7 @@ The main reasons for visiting service website are:
 
 ### Wireframes:
 
-<div><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
 
 <p id="tech"></p>
 
@@ -92,7 +92,7 @@ Responsive, touch-enabled and customizable.
 
 - <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" style="_blank">Google Maps</a>  - For embedding google map location.
 
-<div><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+<div style="text-align: center"><a href="#top">Back to top ⬆️</a></div>
 
 <p id="features"></p>
 
