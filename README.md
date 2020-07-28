@@ -104,35 +104,35 @@ Responsive, touch-enabled and customizable.
 
 ### Header
 
-👌 Clickable email that opens in user email program
+- Clickable email that opens in user email program
 
-👌 Clickable Font Awesome icons that will link to social media
+- Clickable Font Awesome icons that will link to social media
 
 ### Navbar
 
-👌 Clickable logo that will link to Home page
+- Clickable logo that will link to Home page
 
-👌 Navbar links with hover background
+- Navbar links with hover background
 
 ### Footer
 
-👌 Links to each device on Prices page
+- Links to each device on Prices page
 
-👌 Repair Order button that will link to Repair Order form
+- Repair Order button that will link to Repair Order form
 
 ### Home page
 
-👌 Quotes carousel
+- Quotes carousel
 
 ### Gallery page 
 
-👌 Display images in Fancybox3 gallery
+- Display images in Fancybox3 gallery
 
 ### Contact page
 
-👌 Embed Google Maps
+- Embed Google Maps
 
-👌 Contact form
+- Contact form
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
@@ -187,7 +187,9 @@ In order to deploy the website to Github pages, I:
 ## 7️⃣ Credits 🙏
 
 ### Media content:
-- Hero images: unsplash.com
-- Consoles png: cleanpng.com
+- Hero images: unsplash.com (licence free images)
+- Gallery images: ifitit.com (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
+- Consoles png: cleanpng.com (licence free images)
 
 ### Acknowledgments:
+- <a href="https://codeinstitute.net">Code Institute</a>
