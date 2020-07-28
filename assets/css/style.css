@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 #page-footer ul {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 #page-footer ul i {
@@ -131,6 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-danger:hover {
     background-color: rgb(168, 2, 2);
+}
+
+#footer-bottom {
+    background-color: #000;
+    color: rgb(190, 189, 189);
 }
 
 /*------------------------------------ index.html -----------------------*/
