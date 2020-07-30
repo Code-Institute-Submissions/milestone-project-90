@@ -228,10 +228,27 @@ h6 {
 /* Top prices section */
 #top-prices {
   padding-top: 150px;
-  padding-bottom: 60px;
   background-color: #cb0707;
   color: #fff;
 }
+
+#mini-menu {
+    padding-top: 3em;
+}
+
+#mini-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mini-menu a:hover {
+    color: #cb0707;
+}
+
+#mini-menu a div:hover {
+    background-color: #fff;
+}
+
 /* Prices section */
 #playstation3,
 #playstation4,
@@ -320,4 +337,8 @@ h6 {
   #page-footer .col-12 {
       padding-top: 0.5em;
   }
+}
+
+#mini-menu {
+    padding-bottom: 0;
 }
