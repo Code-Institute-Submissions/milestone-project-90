@@ -290,6 +290,7 @@ h6 {
 
 /*------------------------------------ Media Query -----------------------*/
 
+/*------------------------------------ Navbar --*/
 @media (max-width: 576px) {
   #menu a:hover {
     background-color: transparent;
@@ -313,6 +314,7 @@ h6 {
       padding-top: 0.5em;
   }
 
+  /*------------------------------------ Footer --*/
   #page-footer h4 {
       margin-bottom: 0;
   }
