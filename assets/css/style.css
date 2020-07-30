@@ -188,10 +188,6 @@ h6 {
   font-size: 21px;
 }
 
-#service-about img {
-  margin: auto;
-}
-
 #service-button {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -310,6 +306,18 @@ h6 {
   }
 
   .navbar .navbar-collapse {
-        text-align: center;
-    }
+      text-align: center;
+  }
+
+  #advantages-section h3 {
+      padding-top: 0.5em;
+  }
+
+  #page-footer h4 {
+      margin-bottom: 0;
+  }
+
+  #page-footer .col-12 {
+      padding-top: 0.5em;
+  }
 }
