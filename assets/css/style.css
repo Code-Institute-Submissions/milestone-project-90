@@ -38,15 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(0,0,0,0.5);
 }
 
-.opaque-overlay-light {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255,255,255,0.9);
-}
-
 /* Highliht */
 .red {
     color: #cb0707;
@@ -163,19 +154,39 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-/*------------------------------------ Service section --*/
-.tiles .col-6 {
-    height: 160px;
-    width: 160px;
+/*------------------------------------ Service section test --*/
+.box-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
     background-color: #cb0707;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 0;
-
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    float: left;
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+    margin-right: 10px;
 }
+
+.box-text h5 {
+    margin-bottom: 0;
+    color: #cb0707;
+}
+
+/*------------------------------------ Service section --*/
+
+#service-about {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+#service-about img {
+    margin: auto;
+}
+
 
 #service-button {
     margin-top: 10px;
@@ -192,11 +203,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-#service-section p {
-    font-weight: 300;
-    font-size: 21px;
-}
-
 /*------------------------------------ Advantages section --*/
 #advantages-section {
     background-color: #cb0707;
@@ -204,18 +210,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------------------ Quotes section --*/
-#quotes-section {
-    background: url(../images/quotesbg.png) no-repeat bottom center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative;
-}
-
 .blockquote {
-    /*background-color: rgba(240, 240, 240, 0.8);*/
+    background-color: rgb(240, 240, 240);
     padding: 10px;
     border-left: 3px solid #000;
 }
