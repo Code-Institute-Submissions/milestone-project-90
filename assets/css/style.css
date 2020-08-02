@@ -223,6 +223,9 @@ h6 {
   vertical-align: sub;
 }
 
+.blockquote-footer {
+    color: #000;
+}
 /* prices.html */
 
 /* Top prices section */
