@@ -156,6 +156,10 @@ I have personally tested the website on several devices and browsers, and I have
 
 - Microsoft Edge 👍
 
+### Others:
+
+-Chrome DevTools including Lighthouse 
+
 ### Issues and Bugs:
 
 I did not notice any problems with the operation of the website on any of my devices or browsers. However, taking into account my experience, I cannot say that the website is error-free.
