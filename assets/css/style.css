@@ -122,6 +122,11 @@ h6 {
   color: #cb0707;
 }
 
+#page-footer div p {
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+}
+
 .btn-danger {
   background-color: #cb0707;
 }
@@ -312,8 +317,8 @@ h6 {
 
 /* Media Query */
 
-/* Navbar */
 @media (max-width: 576px) {
+ /* Navbar */
   #menu a:hover {
     background-color: transparent;
     color: #cb0707;
@@ -331,6 +336,10 @@ h6 {
   .navbar .navbar-collapse {
       text-align: center;
   }
+
+}
+
+@media (max-width: 768px) {
 
   #advantages-section h3 {
       padding-top: 0.5em;
