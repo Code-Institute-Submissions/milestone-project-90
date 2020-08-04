@@ -3,18 +3,20 @@ $(function () {
 });
 
 $(document).ready(function () {
-  $('form[id="repairorder"]').submit(function () {
-    alert("Form submitted. Thank you!");
-    window.location.reload(true);
+  $('#repair-order').submit(function () {
+    $('#repair-order-success').modal("show");
+    $('#repair-order')[0].reset();
+    $('#staticBackdrop').modal('hide');
+    $("#repair-order :input").attr("disabled", "disabled");
     event.preventDefault();
   });
 });
 
 $(document).ready(function () {
-  $('form[id="contact-form"]').submit(function () {
-    $('#success').modal("show");
-    $("form")[0].reset();
-    $("form :input").attr("disabled", "disabled");
+  $('#contact-form').submit(function () {
+    $('#contact-form-success').modal("show");
+    $("#contact-form")[0].reset();
+    $("#contact-form :input").attr("disabled", "disabled");
     event.preventDefault();
   });
 });
