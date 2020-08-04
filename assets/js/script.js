@@ -5,6 +5,6 @@ $(function () {
 $(document).ready(function () {
   $("form").submit(function () {
     alert("Form submitted. Thank you!");
-    window.location.reload();
+    window.location.reload(true);
   });
 });
