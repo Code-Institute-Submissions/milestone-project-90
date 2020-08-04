@@ -314,18 +314,31 @@ h6 {
 
   position: relative;
 }
-
-/* Modal contact form sent confirmation */
-#success .modal-content {
+/* Modal repair order submit pop up */
+#repair-order-success .modal-content {
     color: #cb0707;
     font-family: "Roboto", sans-serif;
 }
 
-#success .modal-content p {
+#repair-order-success .modal-content p {
     color: #000;
 }
 
-#success .modal-content h3 {
+#repair-order-success .modal-content h3 {
+    font-weight: bold;
+}
+
+/* Modal contact form submit pop up */
+#contact-form-success .modal-content {
+    color: #cb0707;
+    font-family: "Roboto", sans-serif;
+}
+
+#contact-form-success .modal-content p {
+    color: #000;
+}
+
+#contact-form-success .modal-content h3 {
     font-weight: bold;
 }
 
