@@ -191,17 +191,17 @@ h6 {
   font-size: 21px;
 }
 
-#service-button {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#boldinfo {
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
 }
 
-.btn-outline-danger {
+#service-button .btn-outline-danger {
   color: #cb0707;
   border-color: #cb0707;
 }
 
-.btn-outline-danger:hover {
+#service-button .btn-outline-danger:hover {
   background-color: #cb0707;
   color: #fff;
 }
