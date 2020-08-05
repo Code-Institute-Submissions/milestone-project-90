@@ -137,9 +137,7 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <h3>Contact form:</h3>
-            <form
-              id="contact-form"
-            >
+            <form id="contact-form">
               <div class="form-group mb-1">
                 <label for="name" class="m-0"
                   >Name <span class="red">*</span></label
@@ -284,11 +282,7 @@
             </button>
           </div>
           <div class="modal-body pt-0 pb-1"></div>
-          <form
-            method="post"
-            action="https://formdump.codeinstitute.net/"
-            target="_blank"
-          >
+          <form id="repair-order">
             <div class="form-group mb-1">
               <label for="full-name" class="m-0"
                 >Full Name <span class="red">*</span></label
@@ -385,7 +379,9 @@
             </div>
             <div id="modal-form-buttons" class="ml-auto">
               <button
-                id="repairorder"
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
               >
                 Close
               </button>
@@ -398,23 +394,58 @@
         </div>
       </div>
     </div>
-    <!-- Modal contact form -->
-    <div id="success" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content text-center">
-                <button
-              type="button"
-              class="close text-right mr-1"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h3><i class="far fa-check-circle d-block fa-2x"></i> Thank you</h3>
-                    <p>Your message has been sent.</p>
-                </div>
-            </div>
+
+    <!-- Modal repair order submit pop up -->
+    <div
+      id="repair-order-success"
+      class="modal fade bd-example-modal-sm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="mySmallModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content text-center">
+          <button
+            type="button"
+            class="close text-right mr-1"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h3><i class="fas fa-tools d-block fa-2x"></i> Thank you</h3>
+          <p>Your repair order request has been sent.</p>
         </div>
+      </div>
+    </div>
+
+    <!-- Modal contact form submit pop up -->
+    <div
+      id="contact-form-success"
+      class="modal fade bd-example-modal-sm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="mySmallModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content text-center">
+          <button
+            type="button"
+            class="close text-right mr-1"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h3>
+            <i class="fas fa-envelope-open-text d-block fa-2x"></i> Thank you
+          </h3>
+          <p>Your message has been sent.</p>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
