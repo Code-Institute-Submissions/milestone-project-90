@@ -199,6 +199,7 @@ h6 {
 #service-button .btn-outline-danger {
   color: #cb0707;
   border-color: #cb0707;
+  margin-bottom: 1em;
 }
 
 #service-button .btn-outline-danger:hover {
