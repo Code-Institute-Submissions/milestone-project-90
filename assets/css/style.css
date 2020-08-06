@@ -393,14 +393,14 @@ h6 {
 	}
 
     #hero-section {
-        height: 85vh;
+        height: 75vh;
     }
 }
 
 @media (max-width: 768px) {
 
     #hero-section {
-        height: 85vh;
+        height: 75vh;
     }
 
 	#advantages-section h3 {
