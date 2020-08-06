@@ -391,9 +391,18 @@ h6 {
 	.navbar .navbar-collapse {
 		text-align: center;
 	}
+
+    #hero-section {
+        height: 85vh;
+    }
 }
 
 @media (max-width: 768px) {
+
+    #hero-section {
+        height: 85vh;
+    }
+
 	#advantages-section h3 {
 		padding-top: 0.5em;
 	}
