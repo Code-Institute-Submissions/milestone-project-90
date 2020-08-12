@@ -9,7 +9,7 @@
 
 ## Pro Solutions
 
-This project is a summary of learning of the three modules of the Full Stack Developer Cours - HTML, CSS, User Centric Frontend Development, the aim of which was to create a mobile, fully responsive website for the "Pro Solutions" video game console service.
+This project is a summary of learning of the three modules of the Full Stack Developer Cours - HTML, CSS, User Centric Frontend Development, the aim of which was to create a mobile, fully responsive website. This responsive website was created for the "Pro Solutions" video game console service, which I do as my hobby.
 
 Thanks to this website, people interested in repairing their consoles will have the opportunity to familiarize themselves with the services, prices and will be able to contact the service directly for advice via the contact form.
 
@@ -27,9 +27,9 @@ Thanks to this website, people interested in repairing their consoles will have 
 <p id="project"></p>
 
 ## 1️⃣ Project Construction 👷
-This project uses the Bootstrap Framework to create a multi-page, fully responsive website with a mobile-first approach. The project is fully compliant with the requirements set by Code Institute, it does not contain java-script or back-end functions.
+This project uses the Bootstrap Framework to create a multi-page, fully responsive website with a mobile-first approach. The project is fully compliant with the requirements set by Code Institute, to create website using HTML, CSS and bootstrap framework.
 
-Despite the above, the website contains two forms, although there is no confirmation of submitting the application and the information is sent to the Code Institute server for demonstration purposes.
+Despite the above, the website contains two forms with very simple java-script that after submit will confirm submitting, reset and disable the form untill page refresh.
 
 As my skill level grows, the functionality of the website will evolve to include java script features, back-end features and online payments. Then it can be used for commercial purposes.
 
