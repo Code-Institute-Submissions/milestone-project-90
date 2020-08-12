@@ -135,15 +135,25 @@ The user quotes section allow to learn more about Pro Solutions from trustworthy
 
 ![Quotes](assets/readmeimages/quotes.jpg)
 
+### Prices page
+
+This page allows to check services and prices for each console.
+
+![Prices](assets/readmeimages/prices.jpg)
+
 ### Gallery page 
 
-- Display images in Fancybox3 gallery
+This page shows an example Playstation 3 console teardown and presents it nice Fancybox3 gallery.
+
+![Gallery](assets/readmeimages/gallery.jpg)
+
+![Fancybox3](assets/readmeimages/gallerypic.jpg)
 
 ### Contact page
 
-- Embed Google Maps
+This page allows to contact the service by filling contact form. It also includes google maps location.
 
-- Contact form
+![Contact](assets/readmeimages/contact.jpg)
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
