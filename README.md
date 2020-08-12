@@ -104,27 +104,36 @@ Responsive, touch-enabled and customizable.
 
 ## 4️⃣ Features List 😲
 
-### Header
+### Header and Nav bar
 
-- Clickable email that opens in user email program
+Both elements are fixed on top on all pages. Header provide mobile number with email and social access. Navigation provides easy access to website content at all times.
 
-- Clickable Font Awesome icons that will link to social media
-
-### Navbar
-
-- Clickable logo that will link to Home page
-
-- Navbar links with hover background
+![Header and Nav bar](assets/readmeimages/header-nav.jpg)
 
 ### Footer
 
-- Links to each device on Prices page
+It's located on the bottom of every page. It contains contact information, direct links to service for each console and button taking to repair order form.
 
-- Repair Order button that will link to Repair Order form
+![Footer](assets/readmeimages/footer.jpg)
 
 ### Home page
+- Service section
 
-- Quotes carousel
+It contains a description of what the service does and presents it using icons and short description. It also includes a button that takes to a page with repair descriptions and prices.
+
+![Service](assets/readmeimages/service.jpg)
+
+- Attributes section
+
+This section contains attributes that encourage to choose a service.
+
+![Attributes](assets/readmeimages/attributes.jpg)
+
+- Quotes section
+
+The user quotes section allow to learn more about Pro Solutions from trustworthy sources, by reading quotes from existing costumers.
+
+![Quotes](assets/readmeimages/quotes.jpg)
 
 ### Gallery page 
 
