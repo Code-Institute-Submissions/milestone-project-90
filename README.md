@@ -77,26 +77,26 @@ The main reasons for visiting service website are:
 
 - CSS - Describes how HTML elements are to be displayed on screen, paper, or in other media.
 
-- <a href="https://getbootstrap.com/" style="_blank">Bootstrap</a> - Potent front-end framework used to create modern websites and web apps.
+- <a href="https://getbootstrap.com/" rel="noopener" style="_blank">Bootstrap</a> - Potent front-end framework used to create modern websites and web apps.
 
-- <a href="https://www.gitpod.io/" style="_blank">Gitpod</a> - An online IDE which can be launched from any GitHub page
+- <a href="https://www.gitpod.io/" rel="noopener" style="_blank">Gitpod</a> - An online IDE which can be launched from any GitHub page
 
-- <a href="https://github.com/" style="_blank">GitHub</a> -A Git repository hosting service
+- <a href="https://github.com/" rel="noopener" style="_blank">GitHub</a> -A Git repository hosting service
 
 - Google Chrome Dev Tools - A set of web developer tools built directly into the Google Chrome browser.
 
-- <a href="https://www.bootstrapcdn.com/" style="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
+- <a href="https://www.bootstrapcdn.com/" rel="noopener" style="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
 
-- <a href="https://michalsnik.github.io/aos/" style="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
+- <a href="https://michalsnik.github.io/aos/" rel="noopener" style="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
 
-- <a href="https://fancyapps.com/fancybox/3/" style="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
+- <a href="https://fancyapps.com/fancybox/3/" rel="noopener" style="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
 Responsive, touch-enabled and customizable.
 
-- <a href="https://fontawesome.com/" style="_blank">Font Awesome</a> - A web font containing all the icons from the Twitter Bootstrap framework, and now many more.
+- <a href="https://fontawesome.com/" rel="noopener" style="_blank">Font Awesome</a> - A web font containing all the icons from the Twitter Bootstrap framework, and now many more.
 
-- <a href="https://fonts.google.com/" style="_blank">Google Fonts</a> - A library of 999 free licensed font families.
+- <a href="https://fonts.google.com/" rel="noopener" style="_blank">Google Fonts</a> - A library of 999 free licensed font families.
 
-- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" style="_blank">Google Maps</a>  - For embedding google map location.
+- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" style="_blank">Google Maps</a>  - For embedding google map location.
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
@@ -155,33 +155,65 @@ This page allows to contact the service by filling contact form. It also include
 
 ![Contact](assets/readmeimages/contact.jpg)
 
+
+
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="testing"></p>
 
 ## 5️⃣ Testing 🔥
 
-I have personally tested the website on several devices and browsers, and I have not noticed any visible errors. All links are working. Both forms tested successfully, missing text in the required field gave an error.
+I have personally tested the website on several devices and browsers. As the main test tool I used <a href="https://developers.google.com/web/tools/chrome-devtools" rel="noopener" target="_blank">**Chrome DevTools**</a> including <a href="https://developers.google.com/web/tools/lighthouse" rel="noopener" target="_blank">Lighthouse</a> to see how website performes and it helped to improve user experience. Other tests:
 
-### Devices Used:
+### Navigation
 
-- Samsung Galaxy S7 - Android 8.0.0 👍
+1. Visited website on multiple devices and browsers to make sure navbar is visible and fixed on top.
+2. Checked on mobile device if navigation toggle icon works properly.
+3. Checked if hover works properly.
+4. Checked all links if they open correct page.
 
-- Lenovo tab E10 - Android 8.0.0 👍
+### Icons 
 
-### Browsers Used:
+1. Visited website on multiple devices and browsers to make sure icons are visible.
+2. Checked if hover works properly.
+3. Checked if bootstrap tooltip works properly on social media icons.
+4. Checked social media icons if they open in new tab.
 
-- Chrome 👍
+### Buttons
 
-- Firefox 👍
+1. Visited website on multiple devices and browsers to make sure bootons are properly visible.
+2. Checked if hover works properly.
+3. checked if Service and Prices button direct to correct page.
+4. Checked if Repair Order button direct to modal form.
+5. Checked if Submit button works properly.
 
-- Microsoft Edge 👍
+### Animation On Scroll
 
-### Others:
+1. Visited website on multiple devices and browsers to make sure animations work properly.
+2. Checked duration and offset.
 
--Chrome DevTools including Lighthouse 
+### Fancybox3 gallery
 
-### Issues and Bugs:
+1. Visited website on multiple devices and browsers to make sure gallery works properly.
+2. Checked all pictures if they display properly.
+
+### Forms 
+
+1. Visited website on multiple devices and browsers to make sure forms work properly.
+2. Attempted to fill out contact form while leaving a required field blank.
+3. Checked if java-script is working after pressing submit button.
+
+### W3C CSS test:
+
+1. Visited W3C CSS Validator.
+2. Uploaded the entire stylesheet.
+3. Made all corrections to repair errors.
+
+### W3C HTML test:
+
+1. Visited W3C HTML Validator.
+2. Uploaded all contents for each html page.
+3. Made all corrections to repair errors.
 
 I did not notice any problems with the operation of the website on any of my devices or browsers. However, taking into account my experience, I cannot say that the website is error-free.
 
