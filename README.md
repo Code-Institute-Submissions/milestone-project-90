@@ -87,6 +87,8 @@ The main reasons for visiting service website are:
 
 - <a href="https://www.bootstrapcdn.com/" style="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
 
+- <a href="https://michalsnik.github.io/aos/" style="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
+
 - <a href="https://fancyapps.com/fancybox/3/" style="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
 Responsive, touch-enabled and customizable.
 
