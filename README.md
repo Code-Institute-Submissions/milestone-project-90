@@ -29,7 +29,7 @@ Thanks to this website, people interested in repairing their consoles will have 
 ## 1️⃣ Project Construction 👷
 This project uses the Bootstrap Framework to create a multi-page, fully responsive website with a mobile-first approach. The project is fully compliant with the requirements set by Code Institute, to create website using HTML, CSS and bootstrap framework.
 
-Despite the above, the website contains two forms with very simple java-script that after submit will confirm submitting, reset and disable the form untill page refresh.
+Despite the above, the website contains two forms with very simple java-script that after submit will confirm submitting, reset and disable the form until page refresh.
 
 As my skill level grows, the functionality of the website will evolve to include java script features, back-end features and online payments. Then it can be used for commercial purposes.
 
