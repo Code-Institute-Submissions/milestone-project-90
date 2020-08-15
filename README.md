@@ -67,9 +67,9 @@ The main reasons for visiting service website are:
 
 ### Wireframes:
 
-- [Desktop wireframes](assets/readmeimages/desktopwireframes.pdf)
-- [Tablet wireframes](assets/readmeimages/tabletwireframes.pdf)
-- [Mobile wireframes](assets/readmeimages/mobilewireframes.pdf)
+- <a href="assets/readmeimages/desktopwireframes.pdf" style="_blank">Desktop wireframes</a>
+- <a href="assets/readmeimages/tabletwireframes.pdf" style="_blank">Tablet wireframes</a>
+- <a href="assets/readmeimages/mobilewireframes.pdf" style="_blank">Mobile wireframes</a>
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
