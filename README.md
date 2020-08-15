@@ -67,9 +67,9 @@ The main reasons for visiting service website are:
 
 ### Wireframes:
 
-- <a href="assets/readmeimages/desktopwireframes.pdf" style="_blank">Desktop wireframes</a>
-- <a href="assets/readmeimages/tabletwireframes.pdf" style="_blank">Tablet wireframes</a>
-- <a href="assets/readmeimages/mobilewireframes.pdf" style="_blank">Mobile wireframes</a>
+- <a href="assets/readmeimages/desktopwireframes.pdf" target="_blank">Desktop wireframes</a>
+- <a href="assets/readmeimages/tabletwireframes.pdf" target="_blank">Tablet wireframes</a>
+- <a href="assets/readmeimages/mobilewireframes.pdf" target="_blank">Mobile wireframes</a>
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
@@ -81,26 +81,26 @@ The main reasons for visiting service website are:
 
 - CSS - Describes how HTML elements are to be displayed on screen, paper, or in other media.
 
-- <a href="https://getbootstrap.com/" rel="noopener" style="_blank">Bootstrap</a> - Potent front-end framework used to create modern websites and web apps.
+- <a href="https://getbootstrap.com/" rel="noopener" target="_blank">Bootstrap</a> - Potent front-end framework used to create modern websites and web apps.
 
-- <a href="https://www.gitpod.io/" rel="noopener" style="_blank">Gitpod</a> - An online IDE which can be launched from any GitHub page
+- <a href="https://www.gitpod.io/" rel="noopener" target="_blank">Gitpod</a> - An online IDE which can be launched from any GitHub page
 
-- <a href="https://github.com/" rel="noopener" style="_blank">GitHub</a> -A Git repository hosting service
+- <a href="https://github.com/" rel="noopener" target="_blank">GitHub</a> -A Git repository hosting service
 
 - Google Chrome Dev Tools - A set of web developer tools built directly into the Google Chrome browser.
 
-- <a href="https://www.bootstrapcdn.com/" rel="noopener" style="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
+- <a href="https://www.bootstrapcdn.com/" rel="noopener" target="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
 
-- <a href="https://michalsnik.github.io/aos/" rel="noopener" style="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
+- <a href="https://michalsnik.github.io/aos/" rel="noopener" target="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
 
-- <a href="https://fancyapps.com/fancybox/3/" rel="noopener" style="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
+- <a href="https://fancyapps.com/fancybox/3/" rel="noopener" target="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
 Responsive, touch-enabled and customizable.
 
-- <a href="https://fontawesome.com/" rel="noopener" style="_blank">Font Awesome</a> - A web font containing all the icons from the Twitter Bootstrap framework, and now many more.
+- <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a> - A web font containing all the icons from the Twitter Bootstrap framework, and now many more.
 
-- <a href="https://fonts.google.com/" rel="noopener" style="_blank">Google Fonts</a> - A library of 999 free licensed font families.
+- <a href="https://fonts.google.com/" rel="noopener" target="_blank">Google Fonts</a> - A library of 999 free licensed font families.
 
-- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" style="_blank">Google Maps</a>  - For embedding google map location.
+- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" target="_blank">Google Maps</a>  - For embedding google map location.
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
