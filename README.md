@@ -102,6 +102,9 @@ Responsive, touch-enabled and customizable.
 
 - <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" target="_blank">Google Maps</a>  - For embedding google map location.
 
+- - <a href="balsamiq.com" rel="noopener" target="_blank">Balsamiq</a> - Wireframing tool.
+
+
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="features"></p>
