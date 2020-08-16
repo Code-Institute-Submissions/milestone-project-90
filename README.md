@@ -102,7 +102,7 @@ Responsive, touch-enabled and customizable.
 
 - <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" target="_blank">Google Maps</a>  - For embedding google map location.
 
-- - <a href="balsamiq.com" rel="noopener" target="_blank">Balsamiq</a> - Wireframing tool.
+- <a href="balsamiq.com" rel="noopener" target="_blank">Balsamiq</a> - Wireframing tool.
 
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
@@ -263,9 +263,9 @@ In order to deploy the website to Github pages, I:
 ## 7️⃣ Credits 🙏
 
 ### Media content:
-- Hero images: unsplash.com (licence free images)
+- Hero images on gallery and prices page: unsplash.com (licence free images)
 - Gallery images: ifitit.com (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
-- Consoles png: cleanpng.com (licence free images)
+- Consoles image on prices page: cleanpng.com (licence free images)
 
 ### Acknowledgments:
 - <a href="https://codeinstitute.net">Code Institute</a>
