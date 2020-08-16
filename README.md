@@ -150,7 +150,7 @@ This page allows to check services and prices for each console.
 
 ### Gallery page 
 
-This page shows an example Playstation 3 console teardown and presents it nice Fancybox3 gallery.
+This page shows an example Playstation 3 console teardown and presents it in nice Fancybox3 gallery.
 
 ![Gallery](assets/readmeimages/gallery.jpg)
 
@@ -263,9 +263,15 @@ In order to deploy the website to Github pages, I:
 ## 7️⃣ Credits 🙏
 
 ### Media content:
-- Hero images on gallery and prices page: unsplash.com (licence free images)
-- Gallery images: ifitit.com (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
-- Consoles image on prices page: cleanpng.com (licence free images)
+- Hero images on gallery and contact page: <a href="https://unsplash.com/" rel="noopener" target="_blank">Unsplash</a> (licence free images)
+- Gallery images: <a href="https://www.ifixit.com/" rel="noopener" target="_blank">Ifixit</a> (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
+- Consoles images on prices page: <a href="https://www.cleanpng.com/" rel="noopener" target="_blank">CleanPNG</a> cleanpng.com (licence free images)
+- Icons <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>
 
 ### Acknowledgments:
-- <a href="https://codeinstitute.net">Code Institute</a>
+- <a href="https://codeinstitute.net" rel="noopener" target="_blank">Code Institute</a>
+- <a href="https://stackoverflow.com/" rel="noopener" target="_blank">Stack Overflow</a>
+- Code Institute Slack Comminity
+- My mentor: Guido Cecilio
+
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
