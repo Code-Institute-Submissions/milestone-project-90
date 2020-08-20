@@ -129,7 +129,7 @@ h6 {
   color: #cb0707;
 }
 
-#page-footer div p {
+#repair-call {
   margin-bottom: 0;
   padding-bottom: 0.5em;
 }
@@ -147,6 +147,14 @@ h6 {
   color: rgb(190, 189, 189);
 }
 
+#footer-bottom ul a .fa-facebook-f{
+    margin-right: 10px
+}
+
+#footer-bottom ul i {
+    color: #fff;
+    margin-bottom: 10px;
+}
 /* ----------------------------------------- index.html */
 
 /* Hero section */
