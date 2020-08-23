@@ -291,7 +291,7 @@ In order to deploy the website to Github pages, I:
 
 - Hero images on gallery and contact page: <a href="https://unsplash.com/" rel="noopener" target="_blank">Unsplash</a> (licence free images)
 - Gallery images: <a href="https://www.ifixit.com/" rel="noopener" target="_blank">Ifixit</a> (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
-- Consoles images on prices page: <a href="https://www.cleanpng.com/" rel="noopener" target="_blank">CleanPNG</a> cleanpng.com (licence free images)
+- Consoles images on prices page: <a href="https://www.cleanpng.com/" rel="noopener" target="_blank">CleanPNG</a> (licence free images)
 - Icons <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>
 
 ### Acknowledgments:
