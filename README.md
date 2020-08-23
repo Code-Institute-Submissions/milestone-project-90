@@ -1,8 +1,7 @@
-
-
 # Milestone Project 1
 
-***
+---
+
 <p id="top"></p>
 
 ![Pro Solutions logo](assets/readmeimages/logo-readme.png)
@@ -14,12 +13,14 @@ This project is a summary of learning of the three modules of the Full Stack Dev
 Thanks to this website, people interested in repairing their consoles will have the opportunity to familiarize themselves with the services, prices and will be able to contact the service directly for advice via the contact form.
 
 ## Table of contents
+
 - <a href="#project">Project Construction 👷</a>
 - <a href="#ux">User Experience Design 🧠</a>
 - <a href="#tech">Technologies Used 🔨</a>
 - <a href="#features">Features List 😲</a>
 - <a href="#testing">Testing 🔥</a>
 - <a href="#deployment">Deployment 🚀</a>
+- <a href="#development">Development 🤝</a>
 - <a href="#credits">Credits 🙏</a>
 
 ---
@@ -27,9 +28,10 @@ Thanks to this website, people interested in repairing their consoles will have 
 <p id="project"></p>
 
 ## 1️⃣ Project Construction 👷
+
 This project uses the Bootstrap Framework to create a multi-page, fully responsive website with a mobile-first approach. The project is fully compliant with the requirements set by Code Institute, to create website using HTML, CSS and bootstrap framework.
 
-Despite the above, the website contains two forms with very simple java-script that after submit will confirm submitting, reset and disable the form until page refresh.
+Despite the above, the website contains two forms with very simple java-script that after submit will confirm submit and reset the form.
 
 As my skill level grows, the functionality of the website will evolve to include java script features, back-end features and online payments. Then it can be used for commercial purposes.
 
@@ -89,21 +91,20 @@ The main reasons for visiting service website are:
 
 - Google Chrome Dev Tools - A set of web developer tools built directly into the Google Chrome browser.
 
-- <a href="https://www.bootstrapcdn.com/" rel="noopener" target="_blank">Javascript / JQuery</a>  - For the Modal and Responsive Navbar expand and collapse functionality.
+- <a href="https://www.bootstrapcdn.com/" rel="noopener" target="_blank">Javascript / JQuery</a> - For the Modal and Responsive Navbar expand and collapse functionality.
 
 - <a href="https://michalsnik.github.io/aos/" rel="noopener" target="_blank">Animate On Scroll</a> - The AOS library developed by Michal Sajnóg
 
 - <a href="https://fancyapps.com/fancybox/3/" rel="noopener" target="_blank">Fancybox3</a> - JavaScript lightbox library for presenting various types of media.
-Responsive, touch-enabled and customizable.
+  Responsive, touch-enabled and customizable.
 
 - <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a> - A web font containing all the icons from the Twitter Bootstrap framework, and now many more.
 
 - <a href="https://fonts.google.com/" rel="noopener" target="_blank">Google Fonts</a> - A library of 999 free licensed font families.
 
-- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" target="_blank">Google Maps</a>  - For embedding google map location.
+- <a href="https://www.google.com/maps/@53.3900981,-6.2363592,14z" rel="noopener" target="_blank">Google Maps</a> - For embedding google map location.
 
 - <a href="balsamiq.com" rel="noopener" target="_blank">Balsamiq</a> - Wireframing tool.
-
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
@@ -124,6 +125,7 @@ It's located on the bottom of every page. It contains contact information, direc
 ![Footer](assets/readmeimages/footer.jpg)
 
 ### Home page
+
 - Service section
 
 It contains a description of what the service does and presents it using icons and short description. It also includes a button that takes to a page with repair descriptions and prices.
@@ -148,7 +150,7 @@ This page allows to check services and prices for each console.
 
 ![Prices](assets/readmeimages/prices.jpg)
 
-### Gallery page 
+### Gallery page
 
 This page shows an example Playstation 3 console teardown and presents it in nice Fancybox3 gallery.
 
@@ -161,8 +163,6 @@ This page shows an example Playstation 3 console teardown and presents it in nic
 This page allows to contact the service by filling contact form. It also includes google maps location.
 
 ![Contact](assets/readmeimages/contact.jpg)
-
-
 
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
@@ -179,7 +179,7 @@ I have personally tested the website on several devices and browsers. As the mai
 3. Checked if hover works properly.
 4. Checked all links if they open correct page.
 
-### Icons 
+### Icons
 
 1. Visited website on multiple devices and browsers to make sure icons are visible.
 2. Checked if hover works properly.
@@ -204,7 +204,7 @@ I have personally tested the website on several devices and browsers. As the mai
 1. Visited website on multiple devices and browsers to make sure gallery works properly.
 2. Checked all pictures if they display properly.
 
-### Forms 
+### Forms
 
 1. Visited website on multiple devices and browsers to make sure forms work properly.
 2. Attempted to fill out contact form while leaving a required field blank.
@@ -230,7 +230,7 @@ I did not notice any problems with the operation of the website on any of my dev
 
 ## 6️⃣ Deployment 🚀
 
-Project was started from Code Institute <a href="https://github.com/Code-Institute-Org/gitpod-full-template">gitpod-full-template</a> and developed using Gitpod’s IDE.  All developments were pushed to the corresponding repository in GitHub account.
+Project was started from Code Institute <a href="https://github.com/Code-Institute-Org/gitpod-full-template">gitpod-full-template</a> and developed using Gitpod’s IDE. All developments were pushed to the corresponding repository in GitHub account.
 
 In order to deploy the website to Github pages, I:
 
@@ -242,11 +242,48 @@ In order to deploy the website to Github pages, I:
 
 - Page auto refreshed and link generated under Github Pages section:
 
-    👉 Your site is published at https://zokam1411.github.io/milestone-project-1/
+  👉 Your site is published at https://zokam1411.github.io/milestone-project-1/
 
 ### To run this project locally:
 
-- Selected the Repository from the Github Dashboard.
+- Select the Repository from the Github Dashboard.
+
+- Click the green button labeled 'Code'.
+
+- Click 'Download ZIP'.
+
+- Extract ZIP file on your computer.
+
+- Open folder and open index.html in web browser.
+
+<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+
+<p id="development"></p>
+
+## 7️⃣ Development 🤝
+
+### To clone this project:
+
+- Select the Repository from the Github Dashboard.
+
+- Click the green button labeled 'Code'.
+
+- To clone the repository using:
+    - HTTPS: under "Clone with HTTPS", click checklist icon.
+    - SSH: click Use SSH, then click checklist icon.
+
+- Open Git Bash.
+
+- Change the current working directory to the location where you want the cloned directory.
+
+- Type 'git clone', and then paste the URL you copied earlier.
+
+- Press Enter to create your local clone.
+
+
+### To run this project locally:
+
+- Select the Repository from the Github Dashboard.
 
 - Click the green button labeled 'Code'.
 
@@ -260,15 +297,17 @@ In order to deploy the website to Github pages, I:
 
 <p id="credits"></p>
 
-## 7️⃣ Credits 🙏
+## 8️⃣ Credits 🙏
 
 ### Media content:
+
 - Hero images on gallery and contact page: <a href="https://unsplash.com/" rel="noopener" target="_blank">Unsplash</a> (licence free images)
 - Gallery images: <a href="https://www.ifixit.com/" rel="noopener" target="_blank">Ifixit</a> (iFixit content is licensed under the Creative Commons BY-NC-SA 3.0 license.)
 - Consoles images on prices page: <a href="https://www.cleanpng.com/" rel="noopener" target="_blank">CleanPNG</a> cleanpng.com (licence free images)
 - Icons <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>
 
 ### Acknowledgments:
+
 - <a href="https://codeinstitute.net" rel="noopener" target="_blank">Code Institute</a>
 - <a href="https://stackoverflow.com/" rel="noopener" target="_blank">Stack Overflow</a>
 - Code Institute Slack Comminity
