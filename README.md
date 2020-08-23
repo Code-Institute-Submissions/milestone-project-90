@@ -244,18 +244,6 @@ In order to deploy the website to Github pages, I:
 
   👉 Your site is published at https://zokam1411.github.io/milestone-project-1/
 
-### To run this project locally:
-
-- Select the Repository from the Github Dashboard.
-
-- Click the green button labeled 'Code'.
-
-- Click 'Download ZIP'.
-
-- Extract ZIP file on your computer.
-
-- Open folder and open index.html in web browser.
-
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="development"></p>
