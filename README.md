@@ -20,7 +20,6 @@ Thanks to this website, people interested in repairing their consoles will have 
 - <a href="#features">Features List 😲</a>
 - <a href="#testing">Testing 🔥</a>
 - <a href="#deployment">Deployment 🚀</a>
-- <a href="#development">Development 🤝</a>
 - <a href="#credits">Credits 🙏</a>
 
 ---
@@ -244,11 +243,17 @@ In order to deploy the website to Github pages, I:
 
   👉 Your site is published at https://zokam1411.github.io/milestone-project-1/
 
-<div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
+### To run this project locally:
 
-<p id="development"></p>
+- Select the Repository from the Github Dashboard.
 
-## 7️⃣ Development 🤝
+- Click the green button labeled 'Code'.
+
+- Click 'Download ZIP'.
+
+- Extract ZIP file on your computer.
+
+- Open folder and open index.html in web browser.
 
 ### To clone this project:
 
@@ -268,24 +273,11 @@ In order to deploy the website to Github pages, I:
 
 - Press Enter to create your local clone.
 
-
-### To run this project locally:
-
-- Select the Repository from the Github Dashboard.
-
-- Click the green button labeled 'Code'.
-
-- Click 'Download ZIP'.
-
-- Extract ZIP file on your computer.
-
-- Open folder and open index.html in web browser.
-
 <div align="center"><p style="text-align: center"><a href="#top">Back to top ⬆️</a></p></div>
 
 <p id="credits"></p>
 
-## 8️⃣ Credits 🙏
+## 7️⃣ Credits 🙏
 
 ### Media content:
 
